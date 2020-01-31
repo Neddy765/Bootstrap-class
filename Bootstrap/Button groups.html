@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Groups</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</head>
+<body>
+<div class="container pt-4">
+    <div class="btn-group" role="group">
+        <h3>Button Groups</h3>
+        <button type="button" class="btn btn-warning">HOME</button>
+        <button type="button" class="btn btn-warning">ABOUT</button>
+        <button type="button" class="btn btn-warning">GALLERY</button>
+        <button type="button" class="btn btn-warning">CONTACT</button>
+
+    </div>
+</div>
+
+<div class="container pt-4">
+    <div class="btn-group btn-group-vertical" role="group">
+        <h3>Nesting</h3>
+        <button type="button" class="btn btn-danger">1</button>
+        <button type="button" class="btn btn-danger">2</button>
+        <button type="button" class="btn btn-danger">3</button>
+        <button type="button" class="btn btn-danger">4</button>
+        <div class="btn-group"role="group">
+        <button id="btngroup1" type="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown">Dropdown</button>
+        </div>
+        <div class="dropdown-menu" aria-labelledby="btngroup1">
+            <a class="dropdown-item" href="#">Drop one</a>
+            <a class="dropdown-item" href="#">drop two</a>
+
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
